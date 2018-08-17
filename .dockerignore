@@ -1,0 +1,9 @@
+.env
+appsettings.json
+.git
+.gitignore
+.vs
+.vscode
+.idea
+*/bin
+*/obj

@@ -1,0 +1,11 @@
+version: '3'
+services:
+  database:
+    image: microsoft/mssql-server-linux
+    ports:
+      - 5000:1433
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=customersPass2018
+      - Express=true
+    network_mode: "host"
